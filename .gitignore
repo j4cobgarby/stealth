@@ -1,0 +1,4 @@
+assets.h
+*.o
+a.out
+stealth

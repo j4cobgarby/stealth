@@ -8,7 +8,7 @@
 class Animation {
 private: 
     std::vector<sf::Texture> textures;
-    sf::Time elapsed; // Time since last frame
+    int elapsed; // Time since last frame
 
     int frame_time; // Time to stay on each frame
     size_t i; // current frame index
